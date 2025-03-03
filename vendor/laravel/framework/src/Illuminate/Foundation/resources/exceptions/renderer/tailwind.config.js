@@ -46,8 +46,9 @@ module.exports = {
             },
 
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
-                inter: ['Inter', 'sans-serif'],
+              sans: ['Helvetica Neue','Figtree', ...defaultTheme.fontFamily.sans],
+              helvetica: ['Helvetica Neue', 'sans-serif'],
+              inter: ['Inter', 'sans-serif'],
             },
         },
     },
